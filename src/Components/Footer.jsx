@@ -5,12 +5,12 @@ import './CSS/Footer.css';
 export default function Footer() {
   return (
     <>
-      <div style={{backgroundColor: '#212529', color: '#bdbdbd' }} className="shadow">
+      <div style={{backgroundColor: '#212529', color: '#bdbdbd' }} className="shadow footer">
         <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
               <a style={{textDecoration:'none', color: '#bdbdbd'}} href="/" className="d-flex align-items-center p-0">
-                <span  className="ms-3 h5 font-weight-bold">alyf</span>
+                <span style={{color: '#FFF', fontFamily: 'Cormorant Garamond', fontSize: '30px'}}  className="ms-3 h5 font-weight-bold">alyf</span>
               </a>
               <p className="my-3" style={{ width: '250px', textAlign: 'justify' }}>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum deleniti iste possimus incidunt reiciendis velit, veniam exercitationem minima quaerat odio.
@@ -24,16 +24,6 @@ export default function Footer() {
                 <a style={{textDecoration:'none'}} href="/about">About Us</a>
                 <a style={{textDecoration:'none'}} href="/contact">Contact</a>
                 <a style={{textDecoration:'none'}} href="/">FAQ</a>
-              </CDBBox>
-            </CDBBox>
-            <CDBBox>
-              <p className="h5 mb-4" style={{ fontWeight: '600' }}>
-                Products
-              </p>
-              <CDBBox display="flex" flex="column" style={{ cursor: 'pointer', padding: '10px' }}>
-                <a style={{textDecoration:'none'}} href="#Services">Our Medical Services</a>
-                {/* <a style={{textDecoration:'none'}} href="/">Our Medical Camp</a> */}
-                <a style={{textDecoration:'none'}} href="/">Our Specialist</a>
               </CDBBox>
             </CDBBox>
             <CDBBox>

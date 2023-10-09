@@ -13,16 +13,16 @@ export default function Layout() {
       {['sm'].map((expand) => (
         <Navbar sticky="top" style={{fontSize: '16px', backgroundColor: '#0f1430'}} key={expand} expand={expand} className="mb-3">
           <Container  fluid>
-            <Navbar.Brand style={{color: '#FFF'}} className='ms-5' href="/"> alyf</Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Brand style={{color: '#FFF', fontFamily: 'Cormorant Garamond', fontSize: '30px'}} className='ms-5' href="/"> alyf</Navbar.Brand>
+            <Navbar.Toggle style={{backgroundColor: '#F3F4F5'}}  aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="top"
               style={{backgroundColor: '#0f1430', color: '#FFF'}}
             >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+              <Offcanvas.Header style={{color: '#FFF'}}  closeButton>
+                <Offcanvas.Title style={{fontFamily: "Cormorant Garamond", fontSize: '30px'}} id={`offcanvasNavbarLabel-expand-${expand}`}>
                   alyf
                 </Offcanvas.Title>
               </Offcanvas.Header>

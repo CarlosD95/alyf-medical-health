@@ -1,5 +1,8 @@
-@media (min-width: 425px){
-    .shadow{
-        display: grid;
+.footer{
+    padding: 0px 100px;
+}
+@media (max-width: 768px){
+    .footer{
+        padding: 20px;
     }
 }
