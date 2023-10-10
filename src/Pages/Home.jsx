@@ -129,6 +129,9 @@ function Home() {
         ></path>
       </svg>
       <div className="menu-container-white">
+        <div className="img-section">
+          <img src={Imagen2} />
+        </div>
         <div className="text-section">
           <h1 className="title">Contact to alyf</h1>
           <p>
@@ -152,9 +155,6 @@ function Home() {
             Join Today{" "}
             <span class="material-symbols-outlined"> chevron_right </span>
           </Button>{" "}
-        </div>
-        <div className="img-section">
-          <img src={Imagen2} />
         </div>
       </div>
       <svg style={{marginTop: '-2px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
