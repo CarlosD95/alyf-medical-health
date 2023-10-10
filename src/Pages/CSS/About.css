@@ -1,8 +1,8 @@
 .menu-container-about{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    margin: 0 auto;
+    width: 60%;
     padding: 40px;
-    margin-inline: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -14,8 +14,12 @@
 }
 
 .text-section-about{
-    text-align: center;
-    margin-inline: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+    width: auto;
+    max-width: 800px;
 }
 
 .our-story{
@@ -23,7 +27,10 @@
     margin-top: -100px ;
     padding: 50px 300px;
     margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
 }
+
 
 @media (max-width: 768px){
     .img-about{

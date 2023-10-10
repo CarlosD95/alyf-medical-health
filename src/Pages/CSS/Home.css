@@ -3,7 +3,13 @@ img {
     height: 500px;
     width: 25em;
     box-shadow: 10px 10px 5px lightblue;
+    border-radius: 25px;
 }
+
+img:hover{
+    transform: scale(1.06);
+}
+
 
 .title{
     font-family: 'Cormorant Garamond', serif;
@@ -14,29 +20,38 @@ img {
 .menu-container{
     display: flex;
     padding: 20px;
-    margin-inline: 150px;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
 
 .menu-container-principal{
-    background-image: url('../../Assets/Images/pexels-keira-burton-6146933.jpg');
-    height: 700px;
+    background-image: url('../../Assets/Images/pexels-andrea-piacquadio-3760263.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
     margin-top: -20px;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-container-white{
     display: flex;
     padding: 40px;
-    margin-top: -40px;
+    margin-top: -80px;
     background-color: #F3F4F5;
     color: #000;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-section-principal{
-    padding: 180px;
     margin-left: 600px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 40%;
 }
 
 .text-section{
@@ -44,6 +59,7 @@ img {
     flex-direction: column;
     padding: 20px;
     margin: 50px;
+    width: 500px;
 }
 
 .img-section{
@@ -76,15 +92,13 @@ img {
         margin: 50px;
         display: flex;
         flex-direction: column;
-    }
-
-    .carousel{
-        display: none;
+        width: auto;
     }
 
     .text-section{
         margin: 10px auto;
         padding: 20px;
+        width: auto;
     }
 
     .title{
@@ -92,6 +106,6 @@ img {
     }
 
     img{
-        width: 85%;
+        width: 80%;
     }
 }

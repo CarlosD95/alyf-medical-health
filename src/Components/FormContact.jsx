@@ -19,7 +19,7 @@ const Forms = () => {
   ];
   return (
     <CDBContainer>
-      <CDBCard style={{ width: '90%', background: '#1a68bc', margin: '10px auto', border: 'none' }}>
+      <CDBCard style={{background: '#1a68bc', margin: '0 auto', border: 'none', width: '75%' }}>
         <CDBCardBody className="mx-4">
           <div className="text-center mt-4 mb-3">
             <p className="h4" style={{fontFamily: 'Cormorant Garamond', fontSize: '40px'}}> Contact us </p>

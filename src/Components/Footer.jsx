@@ -48,8 +48,8 @@ export default function Footer() {
             <CDBBtn flat color="primary" className="p-2">
               <CDBIcon fab icon="facebook-f" />
             </CDBBtn>
-            <CDBBtn flat color="primary" className="mx-3 p-2">
-              <CDBIcon fab icon="twitter" />
+            <CDBBtn flat color="success" className="mx-3 p-2">
+              <CDBIcon fab icon="whatsapp" />
             </CDBBtn>
             <CDBBtn flat color="secondary" className="p-2">
               <CDBIcon fab icon="instagram" />

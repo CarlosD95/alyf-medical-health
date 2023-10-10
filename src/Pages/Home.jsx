@@ -1,12 +1,9 @@
 import React from 'react';
-import HomeCarousel from '../Components/HomeCarousel';
 import Imagen2 from '../Assets/Images/1.png';
 import Imagen3 from '../Assets/Images/2.png';
 import Imagen4 from '../Assets/Images/3.png';
 import Button from 'react-bootstrap/Button';
 import './CSS/Home.css';
-import OurServices from '../Components/OurServices';
-import OurSpecialist from '../Components/OurSpecialist';
 
 function Home() {
   return (
@@ -124,8 +121,6 @@ function Home() {
           <img src={Imagen4} />
         </div>
       </div>
-      {/* <OurServices />
-      <OurSpecialist /> */}
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"
@@ -162,7 +157,7 @@ function Home() {
           <img src={Imagen2} />
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg style={{marginTop: '-2px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"
           fill-opacity="1"
