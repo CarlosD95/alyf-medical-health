@@ -81,7 +81,7 @@ function Home() {
           </Button>{" "}
         </div>
         <div className="img-section">
-          <img alt="homePage" src={Imagen2} />
+          <img alt="homePage" src={Imagen3} />
         </div>
       </div>
       <svg
