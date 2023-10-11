@@ -4,7 +4,6 @@ import Imagen3 from '../Assets/Images/2.png';
 import Imagen4 from '../Assets/Images/3.png';
 import Button from 'react-bootstrap/Button';
 import './CSS/Home.css';
-import HomeCarousel from '../Components/HomeCarousel';
 
 function Home() {
   return (
@@ -55,7 +54,6 @@ function Home() {
           </p>
         </div>
       </div>
-      <HomeCarousel />
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"
