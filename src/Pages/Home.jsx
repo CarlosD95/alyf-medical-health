@@ -2,9 +2,9 @@ import React from 'react';
 import Imagen2 from '../Assets/Images/1.png';
 import Imagen3 from '../Assets/Images/2.png';
 import Imagen4 from '../Assets/Images/3.png';
-import Background from '../Assets/Images/alyf_plain.png';
 import Button from 'react-bootstrap/Button';
 import './CSS/Home.css';
+import HomeCarousel from '../Components/HomeCarousel';
 
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
           <p>
             Enabled <br /> Empowered <br /> By you, for you...
           </p>
-          <Button
+          {/* <Button
             href="/contact"
             style={{
               display: "flex",
@@ -29,7 +29,7 @@ function Home() {
           >
             Request Access{" "}
             <span class="material-symbols-outlined"> chevron_right </span>
-          </Button>{" "}
+          </Button>{" "} */}
         </div>
       </div>
       <div className="menu-container">
@@ -41,12 +41,12 @@ function Home() {
           </p>
         </div>
         <div className="img-section">
-          <img alt="homePage" src={Imagen2} />
+          <img className='home-image' alt="homePage" src={Imagen2} />
         </div>
       </div>
       <div className="menu-container">
         <div className="img-section">
-          <img alt="homePage" src={Imagen4} />
+          <img className='home-image' alt="homePage" src={Imagen4} />
         </div>
         <div className="text-section">
           <h1 className="title">Enabled <br /> Empowered <br /> By you, for you...</h1>
@@ -55,6 +55,7 @@ function Home() {
           </p>
         </div>
       </div>
+      <HomeCarousel />
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#f3f4f5"
@@ -82,7 +83,7 @@ function Home() {
           </Button>{" "}
         </div>
         <div className="img-section">
-          <img alt="homePage" src={Imagen3} />
+          <img className='home-image' alt="homePage" src={Imagen3} />
         </div>
       </div>
       <svg

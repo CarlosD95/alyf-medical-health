@@ -8,16 +8,16 @@ function About() {
   return (
     <div>
       <div className="menu-container">
-        <div className="text-section">
+        <div className="text-section-about">
         <h1 className="title">About Us</h1>
-          <p style={{ textAlign: "justify" ,fontSize: '20px' }}>
+          <p style={{ textAlign: "justify" }}>
             <span style={{fontStyle: 'italic', fontWeight: 'bold'}}>Alyf </span> is personalizing technology driven solutions to revolutionize
             the delivery of cardiac care.
           </p>
-          <p style={{ textAlign: "justify" ,fontSize: '20px' }}>
+          <p style={{ textAlign: "justify" }}>
           <span style={{fontStyle: 'italic', fontWeight: 'bold'}}>Alyf: </span> One (Arabic alif) <br /> <span style={{fontStyle: 'italic', fontWeight: 'bold'}}>Alyf: </span> Infinite (Hebrew aleph)
           </p>
-          <p style={{ textAlign: "justify" ,fontSize: '20px', fontStyle: "italic" }}>
+          <p style={{ textAlign: "justify", fontStyle: "italic" }}>
             To save one life is to save the world.
           </p>
         </div>
