@@ -10,10 +10,9 @@ function Home() {
     <div className="home">
       <div className="menu-container-principal">
         <div className="text-section-principal">
-          <h2 className="title">Healthcare with you at the center.</h2>
+          <h2 className="title">Connected Cardiac Care.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
-            quas accusantium doloribus ex, quisquam cum.
+            Enabled <br /> Empowered <br /> By you, for you...
           </p>
           <Button
             href="/contact"
@@ -22,12 +21,12 @@ function Home() {
               justifyContent: "center",
               borderRadius: "20px",
               margin: "0 auto",
-              fontSize: "18px",
+              fontSize: "20px",
               alignItems: "center",
             }}
             variant="success"
           >
-            Join Today{" "}
+            Request Access{" "}
             <span class="material-symbols-outlined"> chevron_right </span>
           </Button>{" "}
         </div>
@@ -36,89 +35,23 @@ function Home() {
         <div className="text-section">
           <h1 className="title">Welcome to alyf</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quis
-            voluptate! Suscipit doloribus voluptatem accusantium fugit
-            inventore, at architecto eum harum eos illo laudantium officiis
-            ducimus, reprehenderit deleniti amet enim.
+          <span style={{fontStyle: 'italic'}}>Alyf </span> is personalizing technology driven solutions to revolutionize
+            the delivery of cardiac care.
           </p>
-          <Button
-            href="/contact"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              margin: "0 auto",
-              fontSize: "18px",
-              alignItems: "center",
-              borderRadius: "20px",
-            }}
-            variant="success"
-          >
-            Join Today{" "}
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </Button>{" "}
         </div>
         <div className="img-section">
-          <img src={Imagen2} />
+          <img alt="homePage" src={Imagen2} />
         </div>
       </div>
       <div className="menu-container">
         <div className="img-section">
-          <img src={Imagen3} />
+          <img alt="homePage" src={Imagen4} />
         </div>
         <div className="text-section">
-          <h1 className="title">Connect with our team.</h1>
+          <h1 className="title">Enabled <br /> Empowered <br /> By you, for you...</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            distinctio, vel earum vitae eveniet dolores enim, nobis odit unde
-            deleniti autem amet temporibus! Iste dolorum officiis voluptate et
-            pariatur obcaecati quia labore, odio corporis quod accusantium
-            minima delectus magnam porro itaque tenetur est eaque quae,
-            distinctio necessitatibus dignissimos dolor. Distinctio!
+            To save one life is to save the world.
           </p>
-          <Button
-            href="/contact"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              margin: "0 auto",
-              fontSize: "18px",
-              alignItems: "center",
-              borderRadius: "20px",
-            }}
-            variant="success"
-          >
-            Join Today{" "}
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </Button>{" "}
-        </div>
-      </div>
-      <div className="menu-container">
-        <div className="text-section">
-          <h1 className="title">Receive comprehensive care.</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quis
-            voluptate! Suscipit doloribus voluptatem accusantium fugit
-            inventore, at architecto eum harum eos illo laudantium officiis
-            ducimus, reprehenderit deleniti amet enim.
-          </p>
-          <Button
-            href="/contact"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              margin: "0 auto",
-              fontSize: "18px",
-              alignItems: "center",
-              borderRadius: "20px",
-            }}
-            variant="success"
-          >
-            Join Today{" "}
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </Button>{" "}
-        </div>
-        <div className="img-section">
-          <img src={Imagen4} />
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -129,35 +62,33 @@ function Home() {
         ></path>
       </svg>
       <div className="menu-container-white">
-        <div className="img-section">
-          <img src={Imagen2} />
-        </div>
         <div className="text-section">
-          <h1 className="title">Contact to alyf</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quis
-            voluptate! Suscipit doloribus voluptatem accusantium fugit
-            inventore, at architecto eum harum eos illo laudantium officiis
-            ducimus, reprehenderit deleniti amet enim.
-          </p>
+          <h1 className="title">Empower yourself by joining alyf</h1>
           <Button
             href="/contact"
             style={{
               display: "flex",
               justifyContent: "center",
               margin: "0 auto",
-              fontSize: "18px",
+              fontSize: "20px",
               alignItems: "center",
               borderRadius: "20px",
             }}
             variant="success"
           >
-            Join Today{" "}
+            Request Access{" "}
             <span class="material-symbols-outlined"> chevron_right </span>
           </Button>{" "}
         </div>
+        <div className="img-section">
+          <img alt="homePage" src={Imagen2} />
+        </div>
       </div>
-      <svg style={{marginTop: '-2px'}} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg
+        style={{ marginTop: "-2px" }}
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
         <path
           fill="#f3f4f5"
           fill-opacity="1"

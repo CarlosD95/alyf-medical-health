@@ -4,6 +4,7 @@ img {
     width: 25em;
     box-shadow: 10px 10px 5px lightblue;
     border-radius: 25px;
+    max-width: 400px;
 }
 
 img:hover{
@@ -13,7 +14,7 @@ img:hover{
 
 .title{
     font-family: 'Cormorant Garamond', serif;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 
@@ -23,6 +24,7 @@ img:hover{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    font-size: 20px;
 }
 
 .menu-container-principal{
@@ -33,6 +35,8 @@ img:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0 450px;
+    font-size: 20px;
 }
 
 .menu-container-white{
@@ -76,12 +80,13 @@ img:hover{
 
     .menu-container-white{
         display: grid;
-        margin: 0 auto;
+        margin: -1px auto;
     }
 
     .menu-container-principal{
         margin: 0 auto;
         display: grid;
+        padding: 0;
         height: 5%;
         background-position: top;
         margin-top: -15px;
@@ -107,5 +112,7 @@ img:hover{
 
     img{
         width: 80%;
+        height: 250px;
     }
 }
+

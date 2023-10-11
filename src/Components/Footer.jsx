@@ -5,34 +5,71 @@ import './CSS/Footer.css';
 export default function Footer() {
   return (
     <>
-      <div style={{backgroundColor: '#212529', color: '#bdbdbd' }} className="shadow footer">
-        <CDBBox display="flex" flex="column" className="mx-auto py-5" style={{ width: '90%' }}>
+      <div
+        style={{ backgroundColor: "#212529", color: "#bdbdbd" }}
+        className="shadow footer"
+      >
+        <CDBBox
+          display="flex"
+          flex="column"
+          className="mx-auto py-5"
+          style={{ width: "90%" }}
+        >
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
-              <a style={{textDecoration:'none', color: '#bdbdbd'}} href="/" className="d-flex align-items-center p-0">
-                <span style={{color: '#FFF', fontFamily: 'Cormorant Garamond', fontSize: '30px'}}  className="ms-3 h5 font-weight-bold">alyf</span>
+              <a
+                style={{ textDecoration: "none", color: "#bdbdbd" }}
+                href="/"
+                className="d-flex align-items-center p-0"
+              >
+                <span
+                  style={{
+                    color: "#FFF",
+                    fontFamily: "Cormorant Garamond",
+                    fontSize: "30px",
+                  }}
+                  className="ms-3 h5 font-weight-bold"
+                >
+                  alyf
+                </span>
               </a>
-              <p className="my-3" style={{ width: '250px', textAlign: 'justify' }}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum deleniti iste possimus incidunt reiciendis velit, veniam exercitationem minima quaerat odio.
+              <p
+                className="my-3"
+                style={{ width: "250px", textAlign: "justify" }}
+              >
+                is personalizing technology driven solutions to revolutionize the delivery of cardiac care.
               </p>
             </CDBBox>
             <CDBBox>
-              <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+              <p className="h5 mb-4" style={{ fontWeight: "600" }}>
                 About
               </p>
-              <CDBBox flex="column" display="flex" style={{ cursor: 'pointer', padding: '10px', }}>
-                <a style={{textDecoration:'none'}} href="/about">About Us</a>
-                <a style={{textDecoration:'none'}} href="/contact">Contact</a>
-                <a style={{textDecoration:'none'}} href="/">FAQ</a>
+              <CDBBox
+                flex="column"
+                display="flex"
+                style={{ cursor: "pointer", padding: "10px" }}
+              >
+                <a style={{ textDecoration: "none" }} href="/about">
+                  About Us
+                </a>
+                <a style={{ textDecoration: "none" }} href="/contact">
+                  Contact
+                </a>
+                <a style={{ textDecoration: "none" }} href="/">
+                  FAQ
+                </a>
               </CDBBox>
             </CDBBox>
             <CDBBox>
-              <p className="h5 mb-4" style={{ fontWeight: '600', fontSize: '24px' }}>
-              +564 7885 3222
+              <p
+                className="h5 mb-4"
+                style={{ fontWeight: "600", fontSize: "24px" }}
+              >
+                +564 7885 3222
               </p>
-              <CDBBox display="flex" flex="column" style={{ padding: '0' }}>
-                <span style={{fontSize: '20px'}}>youralyf@gmail.com</span>
-                <div className='py-2 d-flex'>
+              <CDBBox display="flex" flex="column" style={{ padding: "0" }}>
+                <span style={{ fontSize: "20px" }}>youralyf@gmail.com</span>
+                <div className="py-2 d-flex">
                   <CDBInput type="email" placeholder="Your E-mail" />
                   <CDBBtn color="success"> Send</CDBBtn>
                 </div>
@@ -42,7 +79,7 @@ export default function Footer() {
           <CDBBox
             display="flex"
             justifyContent="center"
-            style={{ width: '100%' }}
+            style={{ width: "100%" }}
             className="mx-auto mt-4"
           >
             <CDBBtn flat color="primary" className="p-2">
@@ -55,7 +92,9 @@ export default function Footer() {
               <CDBIcon fab icon="instagram" />
             </CDBBtn>
           </CDBBox>
-          <small className="text-center mt-5">&copy; alyf, 2023. All rights reserved.</small>
+          <small className="text-center mt-5">
+            &copy; alyf, 2023. All rights reserved.
+          </small>
         </CDBBox>
       </div>
     </>
