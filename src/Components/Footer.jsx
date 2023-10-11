@@ -37,7 +37,8 @@ export default function Footer() {
                 className="my-3"
                 style={{ width: "250px", textAlign: "justify" }}
               >
-                is personalizing technology driven solutions to revolutionize the delivery of cardiac care.
+                is personalizing technology driven solutions to revolutionize
+                the delivery of cardiac care.
               </p>
             </CDBBox>
             <CDBBox>
@@ -65,10 +66,10 @@ export default function Footer() {
                 className="h5 mb-4"
                 style={{ fontWeight: "600", fontSize: "24px" }}
               >
-                +564 7885 3222
+                (949) 444-2593
               </p>
               <CDBBox display="flex" flex="column" style={{ padding: "0" }}>
-                <span style={{ fontSize: "20px" }}>youralyf@gmail.com</span>
+                <span style={{ fontSize: "16px" }}>23 CORPORATE PLAZA DR STE <br/> 150 NEWPORT BEACH, CA 92660</span>
                 <div className="py-2 d-flex">
                   <CDBInput type="email" placeholder="Your E-mail" />
                   <CDBBtn color="success"> Send</CDBBtn>
