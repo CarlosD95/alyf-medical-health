@@ -2,6 +2,7 @@ import React from 'react';
 import Imagen2 from '../Assets/Images/1.png';
 import Imagen3 from '../Assets/Images/2.png';
 import Imagen4 from '../Assets/Images/3.png';
+import Background from '../Assets/Images/alyf_plain.png';
 import Button from 'react-bootstrap/Button';
 import './CSS/Home.css';
 

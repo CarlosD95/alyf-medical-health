@@ -27,10 +27,13 @@ img:hover{
     font-size: 20px;
 }
 
+
 .menu-container-principal{
-    /* background-image: url('../../Assets/Images/pexels-andrea-piacquadio-3760263.jpg'); */
-    background-repeat: no-repeat;
-    height: 500px;
+    background-image: url('../../Assets/Images/pexels-karolina-grabowska-4046929.jpg');
+    background-position: center;
+    background-size: 100%;
+    width: auto;
+    height: 550px;
     margin-top: -20px;
     display: flex;
     align-items: center;
@@ -88,7 +91,6 @@ img:hover{
         display: grid;
         padding: 0;
         height: 5%;
-        background-position: top;
         margin-top: -15px;
     }
 
