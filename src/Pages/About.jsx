@@ -1,6 +1,5 @@
 import React from 'react';
 import Imagen2 from '../Assets/Images/play store banner.png';
-import Imagen3 from '../Assets/Images/pexels-polina-zimmerman-3778619.jpg';
 import './CSS/About.css';
 import Button from 'react-bootstrap/Button';
 

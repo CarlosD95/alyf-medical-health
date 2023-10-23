@@ -18,6 +18,10 @@
     max-width: 400px;
 }
 
+.about-image:hover{
+    transform: scale(1.06);
+}
+
 .text-section-about{
     display: flex;
     flex-direction: column;

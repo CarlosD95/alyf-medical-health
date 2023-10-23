@@ -14,21 +14,6 @@ function Home() {
           <p>
             Enabled <br /> Empowered <br /> By you, for you...
           </p>
-          {/* <Button
-            href="/contact"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              borderRadius: "20px",
-              margin: "0 auto",
-              fontSize: "20px",
-              alignItems: "center",
-            }}
-            variant="success"
-          >
-            Request Access{" "}
-            <span class="material-symbols-outlined"> chevron_right </span>
-          </Button>{" "} */}
         </div>
       </div>
       <div className="menu-container">
