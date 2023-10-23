@@ -29,10 +29,6 @@ const Forms = () => {
           <p style={{fontSize: '20px'}} className="text-center mb-1">Subject</p>
           <CDBSelect style={{background: '#f3f4f5', marginBottom: '10px' }} options={option} selected="Feedback" />
           <CDBInput placeholder='Typing your message...' style={{background: '#f3f4f5' }} hint="Message" type="textarea" />
-          {/* <div className="d-flex justify-content-center align-items-center mt-4">
-            <CDBInput style={{background: '#f3f4f5' }} material type="Checkbox" />
-            <p className="m-0">Send me a copy of this message</p>
-          </div> */}
           <CDBBtn style={{fontSize: '18px'}} color="warning" className="btn-block my-3 mx-0">
             Send
           </CDBBtn>
